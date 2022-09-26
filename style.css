@@ -511,8 +511,6 @@ hr {
   width: 300px;
 }
 
-.slacko__imagen img:hover::after {
-  cursor: pointer;
-  text-decoration: underline;
+.slacko__imagen img:hover {
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
