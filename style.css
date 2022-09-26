@@ -390,4 +390,72 @@ hr {
 .botones-box img {
   height: 400px;
   margin-bottom: 20px;
+}
+
+.cita {
+  background: white;
+  width: 550px;
+}
+
+.cita {
+  display: flex;
+  flex-direction: column;
+}
+
+.cita__item {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 40px 30px 30px;
+}
+
+.cita__item p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  font-style: italic;
+}
+
+.cita__item p::before {
+  content: " ";
+  display: inline-block;
+}
+
+.cita__item p::after {
+  content: " ";
+  display: inline-block;
+}
+
+.cita__autor {
+  margin: 5px 40px 10px 30px;
+}
+
+.cita__autor p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 17px;
+  text-align: left;
+}
+
+.cita__link {
+  margin: 5px 40px 0px 30px;
+}
+
+.cita__link a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  font-size: 17px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.cita__link a:hover::after {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cita__link a::after {
+  content: " >>>> ";
+  display: inline-block;
+  margin-left: 15px;
 }/*# sourceMappingURL=style.css.map */
