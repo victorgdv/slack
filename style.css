@@ -395,11 +395,13 @@ hr {
 .cita {
   background: white;
   width: 550px;
+  height: 350px;
 }
 
 .cita {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .cita__item {
@@ -438,7 +440,7 @@ hr {
 }
 
 .cita__link {
-  margin: 5px 40px 0px 30px;
+  margin: 5px 40px 50px 30px;
 }
 
 .cita__link a {
@@ -458,4 +460,59 @@ hr {
   content: " >>>> ";
   display: inline-block;
   margin-left: 15px;
+}
+
+.cita__asterisco p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500px;
+}
+
+.cita__asterisco {
+  margin: 5px 40px 10px 50px;
+}
+
+.slacko {
+  background-color: beige;
+  width: 550px;
+  height: 650px;
+}
+
+.slacko {
+  display: flex;
+  flex-direction: column;
+}
+
+.slacko__title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+.slacko__title {
+  margin: 40px 40px 10px 15px;
+}
+
+.slacko__imagen {
+  display: flex;
+  flex-direction: column;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.slacko__imagen img {
+  height: 400px;
+  width: 300px;
+}
+
+.slacko__imagen img:hover::after {
+  cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

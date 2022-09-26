@@ -1,0 +1,41 @@
+.slacko{
+    background-color: beige;
+    width: 550px;
+    height:650px;
+
+}
+
+.slacko{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.slacko__title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.slacko__title{
+    margin:40px 40px 10px 15px;
+}
+
+.slacko__imagen{
+    display:flex;
+    flex-direction: column;
+    object-fit: cover;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.slacko__imagen img{
+    height: 400px;
+    width:  300px;
+}
+
+.slacko__imagen img:hover::after{
+    display: 
+    cursor: pointer;
+    }
