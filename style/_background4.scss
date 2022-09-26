@@ -1,0 +1,78 @@
+.empresas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.empresas {
+    background: white;
+    width: 550px;
+}
+
+.empresas__item {
+    display:flex;
+    align-items:  center;
+    flex-direction: column;
+    margin: 30px 20px 30px 20px;     
+}
+
+.empresas__item h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.empresas__frase {
+    text-align: center;
+    margin: 20px 15px 20px 15px;   
+
+}
+
+.empresas__frase p{
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 16px;
+margin: 0px;
+font-weight: 400;
+padding: 0 50px 0px 50px;
+letter-spacing: 1px;
+}
+
+.botones-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+
+   
+.botones-box__empresas{
+    padding: 20px;
+    color: white;
+    border-color: purple;
+    background-color: purple;
+    border-radius: 3%;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.botones-box__ventas{
+    padding: 20px;
+    color: purple;
+    border-color: purple;
+    background-color: white;
+    border-radius: 3%;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.botones-box img{
+    height: 400px ;
+    margin-bottom: 20px;
+}
+
+

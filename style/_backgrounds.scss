@@ -1,0 +1,49 @@
+.curved{
+    background-color: beige;
+    width: 550px;
+    height:650px;
+
+}
+
+.curved{
+    position: relative;
+}
+
+.curved__trend{
+    margin:20px 40px 10px 15px;
+}
+
+.curved__trend h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 30px;
+    text-align:left;
+}
+
+.curved__channels{
+    margin:20px 40px 10px 15px;
+}
+.curved__channels p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 17px;
+    text-align:left;
+
+}
+
+.curved__link{
+    margin:20px 40px 0px 15px;
+}
+
+.curved__link a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    font-size: 17px;
+    text-align:left;
+    text-decoration: none;
+}
+
+.curved__link a:hover::after{
+    text-decoration: underline;
+    cursor: pointer;
+}

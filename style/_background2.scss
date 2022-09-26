@@ -1,0 +1,61 @@
+.curved2{
+    background-color: beige;
+    width: 550px;
+    height: 700px;
+}
+
+.curved2{
+    position: relative;
+}
+
+.curved2 img{
+    position: absolute;
+    right:0;
+}
+
+.curved2__trend{
+    margin:20px 40px 10px 15px;
+    position:absolute;
+    bottom: 30%;
+    right: 0%;
+}
+
+.curved2__trend h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 30px;
+    text-align:right;
+}
+
+.curved2__channels{
+    margin:20px 40px 10px 15px;
+    position: absolute;
+    bottom: 16%;
+}
+.curved2__channels p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 17px;
+    text-align:right;
+
+}
+
+.curved2__link{
+    margin:20px 40px 10px 15px;
+    position: absolute;
+    bottom: 8%;
+    right:0;
+}
+
+.curved2__link a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    font-size: 17px;
+    text-align:left;
+    text-decoration: none;
+}
+
+.curved2__link a:hover::after{
+    text-decoration: underline;
+    cursor: pointer;
+}
