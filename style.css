@@ -409,10 +409,7 @@ hr {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  z-index: -1;
   display: block;
-  overflow: hidden;
-  padding-top: 0;
   border-top-right-radius: 40%;
   border-bottom-right-radius: 40%;
 }
