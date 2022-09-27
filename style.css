@@ -414,11 +414,6 @@ hr {
   border-bottom-right-radius: 40%;
 }
 
-.capsula__video iframe {
-  -webkit-clip-path: circle;
-          clip-path: circle;
-}
-
 .cita {
   background: white;
   width: 550px;
@@ -569,4 +564,73 @@ hr {
   left: 9%;
   top: 90%;
   position: absolute;
+}
+
+.bienvenida {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bienvenida {
+  background: purple;
+  width: 550px;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+}
+
+.bienvenida__title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 20px 30px 20px;
+}
+
+.bienvenida__title h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bienvenida__title {
+  text-align: center;
+  margin: 20px 15px 20px 15px;
+}
+
+.botones-bievenida {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.botones-bienvenida__ventas {
+  padding: 20px;
+  color: white;
+  border-color: purple;
+  background-color: purple;
+  border-radius: 3%;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.botones-bienvenida__empresa {
+  padding: 20px;
+  color: purple;
+  border-color: purple;
+  background-color: white;
+  border-radius: 3%;
+  letter-spacing: 2px;
+  margin-left: 68px;
+}
+
+.botones-bievenida__empresa:hover {
+  cursor: pointer;
+}
+
+.botones-bienvenida__ventas:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
