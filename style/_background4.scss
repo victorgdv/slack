@@ -75,4 +75,32 @@ letter-spacing: 1px;
     margin-bottom: 20px;
 }
 
+.capsula{
+        background: white;
+        width: 550px;
+        height: 350px;
+    
+} 
+    
+.capsula {
+        display: flex;  
+        flex-direction: column;
+        margin-bottom: 30px;
+}
+
+.capsula iframe{
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    display: block;
+    overflow: hidden;
+    padding-top: 0;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+
+.capsula__video iframe{
+    clip-path: circle ();
+}
 
